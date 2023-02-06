@@ -1,0 +1,23 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+header{
+    background-color: black;
+} 
+h1{
+    color: white;
+    margin-top: 0;
+}
+nav a{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    gap: 1rem;
+    padding-bottom: ;
+}
+

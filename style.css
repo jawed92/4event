@@ -10,14 +10,105 @@ header{
 h1{
     color: white;
     margin-top: 0;
+    padding: 15px 0 0 25px;
 }
-nav a{
+#navH{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+.navH{
     color: white;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
-nav{
+main, footer{
+    background-color: rgba(198,198,198,255);
+}
+#part{
+    display: flex;
+    width: 100%;
+}
+.partenaire{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.presentation{
+    color: white;
+    padding-left: 25px;
+    font-size: 2.4rem;
+}
+.btnPlus{
+    border-radius: 12px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    background-color: rgba(217,217,217,255);
+}
+.img{
+    width: 50%;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+.separateur{
+    width: 95%;
+    background-color: black;
+    position: relative;
+    height: 5px;
+    border-radius: 30px;
+    top: 20px;
+}
+#presta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.prestations{
+    display: flex;
+    justify-content: space-around;
     gap: 1rem;
-    padding-bottom: ;
+    width: 90%;
 }
-
+.section1{
+    margin: 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.cardI{
+    border-radius: 10px;
+    width: 100%;
+}
+.btnP{
+    
+    border-radius: 12px;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    background-color: rgba(217,217,217,255);
+}
+#avis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+.avisC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.avisP{
+    
+    color: black;
+}

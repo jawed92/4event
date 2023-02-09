@@ -2,8 +2,11 @@ body{
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
     margin: 0 auto;
+    background-color: rgba(198,198,198,255);
   }
-
+a{
+    text-decoration: none;
+}
 header{
     background-color: black;
 } 
@@ -111,4 +114,29 @@ main, footer{
 .avisP{
     
     color: black;
+}
+footer{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.navFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.navFooter a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    gap: 1.5rem;
+
+}
+.fab{
+    color: black;
+    font-size: 2rem;
 }
